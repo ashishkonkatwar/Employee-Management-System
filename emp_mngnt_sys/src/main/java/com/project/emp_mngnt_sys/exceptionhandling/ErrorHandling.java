@@ -11,7 +11,7 @@ public class ErrorHandling {
 	@ExceptionHandler
 	public void Exception() throws valueNotFoundException {
 		ErrorHandling(String error){
-			super(error);
+			super(add);
 		}
 	
 }
